@@ -1,8 +1,16 @@
 {
   "name": "react-native-ntutil",
-  "version": "0.0.1",
-  "description": "通用小组件",
+  "version": "1.0.0",
+  "description": "简单的功能封装",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loveninteb/react-native-NTUtil.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loveninteb/react-native-NTUtil/issues"
+  },
+  "homepage": "https://github.com/loveninteb/react-native-NTUtil#readme"
 }
