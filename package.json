@@ -1,0 +1,8 @@
+{
+  "name": "react-native-ntutil",
+  "version": "0.0.1",
+  "description": "通用小组件",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}
