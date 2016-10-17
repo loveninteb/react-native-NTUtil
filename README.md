@@ -3,10 +3,11 @@
 安装：  
   npm install react-native-ntutil <br />
   rnpm link react-native-ntutil  <br />
-<br /> <br />
+<br /> 
 Android 添加   <br />
-  找到getPackages方法所在的类，添加  <br />
-  import com.NTUtil.NTUtilPackage; <br />
+  找到getPackages方法所在的类，  <br />
+  头部添加import com.NTUtil.NTUtilPackage; <br />
+  getPackages 方法里添加 new NTUtilPackage()(如下) <br/>
   @Override <br />
     protected List<ReactPackage> getPackages() { <br />
       return Arrays.<ReactPackage>asList(<br />
@@ -43,7 +44,7 @@ js 使用 <br />
   ANDROIDModule.saveImage(["图片url1","图片url2"],(e)=>{alert(e)});<br />
   //清除cookie<br />
   ANDROIDModule.clearCookie();<br />
-  <br /><br />
+  <br />
   //摇一摇<br />
   componentDidMount(){<br />
     //注册摇一摇监听<br />
