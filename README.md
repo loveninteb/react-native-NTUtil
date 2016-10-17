@@ -3,7 +3,7 @@
 安装：  
   npm install react-native-ntutil
   rnpm link react-native-ntutil
-
+<br />
 Android 添加 
   找到getPackages方法所在的类，添加
   import com.NTUtil.NTUtilPackage; 
@@ -14,7 +14,7 @@ Android 添加
               new NTUtilPackage()
       );
     }
-
+<br />
 js 使用
   const ANDROIDModule = NativeModules.NTUtilModule;
   //android toast 提示框 
