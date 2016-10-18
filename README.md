@@ -9,7 +9,7 @@ Android 添加:
   `头部添加import com.NTUtil.NTUtilPackage;`   
   `getPackages 方法里添加 new NTUtilPackage()(如下)`  
   `@Override`   
-    `protected List<ReactPackage> getPackages() {` 
+    `protected List<ReactPackage> getPackages() {`  
       `return Arrays.<ReactPackage>asList(`  
          `new MainReactPackage(),`  
          `new NTUtilPackage()`  
