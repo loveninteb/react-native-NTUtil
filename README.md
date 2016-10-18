@@ -1,9 +1,9 @@
 # react-native-NTUtil
 
 安装：  
-  npm install react-native-ntutil <br />
-  rnpm link react-native-ntutil  <br />
-<br /> 
+  `npm install react-native-ntutil`  
+  `rnpm link react-native-ntutil`  
+ 
 Android 添加   <br />
   找到getPackages方法所在的类，  <br />
   头部添加import com.NTUtil.NTUtilPackage; <br />
