@@ -57,7 +57,7 @@ js 使用
   `}`  
   `//摇一摇reset`  
   `ANDROIDModule.shakeReset();`  
-  `接受摇一摇事件:`  
+  `接受摇一摇事件 type:4001:`  
   `DeviceEventEmitter.addListener('NTUtil',(e)=>{`  
     `switch(e.type){`  
       `case 4001:`  
